@@ -1,0 +1,2 @@
+# Count notebooks in GitHub language stats (Linguist treats Jupyter Notebook as markup and skips it by default)
+*.ipynb linguist-detectable
