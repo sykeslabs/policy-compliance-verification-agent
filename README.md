@@ -1,3 +1,9 @@
+> **My implementation:** the seven pipeline steps are implemented in [`solutions/`](solutions/)
+> (part1_action … part7_pipeline) and in the project notebook. The modules in `agentic/` are
+> the course skeleton and intentionally raise `NotImplementedError`.
+> Design and defense notes: [`notebook/DOCUMENTATION.md`](notebook/DOCUMENTATION.md) ·
+> [`notebook/DEFENSE.md`](notebook/DEFENSE.md)
+
 # Policy-Compliance Verification Agent
 
 An agentic workflow that checks dashboard requests (expense reports, procurement requests, access changes, time off) against company policy. It flags violations, cites the exact policy text behind each verdict, and suggests concrete fixes.
